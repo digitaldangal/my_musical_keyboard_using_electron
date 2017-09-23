@@ -1,16 +1,17 @@
 {
   "name": "my_musical_keyboard",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13"
-  },
+  "description": "A simple application which plays a sound for every keyboard key that you press",
+  "main": "main.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "electron ."
+  },
+  "repository": "https://github.com/omi23vaidya/my_musical_keyboard_using_electron",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Omkar Vaidya",
+  "devDependencies": {
+    "electron": "1.6.13"
   }
 }
