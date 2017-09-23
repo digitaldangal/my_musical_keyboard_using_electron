@@ -8,7 +8,6 @@
   </head>
   <body>
     <h1>Welcome to Musical Keyboard App!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
     <p>Make typing a musical experience with this fun app. Work and play at the same time!!!</p> 
     <p>>We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
@@ -16,13 +15,11 @@
 
     <div class = "audio">
       <audio id = "A" src = "sounds/A.mp3" preload="auto"></audio>
-      <audio id = "Raabta" src = "sounds/A.mp3" preload="auto"></audio>
+      <audio id = "Raabta" src = "sounds/Raabta.mp3" preload="auto"></audio>
     </div>
   </body>
 
   <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
     require('./functions.js')
   </script>
 </html>
